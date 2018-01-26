@@ -1,3 +1,3 @@
 gsutil mb -c regional -l europe-west2 gs://robstow
 
-gcloud beta up742010s4 export gs://up742010
+gcloud beta datastore export --namespaces='up742010s4' gs://up742010
