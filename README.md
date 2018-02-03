@@ -12,4 +12,4 @@ MAILTO=up742010@myport.ac.uk
 
 0 * * * * means the job will run every zeroth minute of every hour, day, week, and month.
 
-#Insure that the shellscript is executable with; chmod +x <filename>
+#Insure that the shellscript is executable with; chmod +x [filename]
