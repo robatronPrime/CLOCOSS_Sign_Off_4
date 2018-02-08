@@ -1,7 +1,7 @@
 # CLOCOSS_Sign_Off_4
 Uses a cronjob to back up a namespace to a bucket.
 
-# How to use crontab
+## How to use crontab
 Veiw the cronjob by typing crontab -l
 
 Edit the cronjob by typing crontab -e
@@ -12,9 +12,9 @@ MAILTO=up742010@myport.ac.uk
 
 0 * * * * means the job will run every zeroth minute of every hour, day, week, and month.
 
-# Insure that the shellscript is executable with; chmod +x [filename]
+## Insure that the shellscript is executable with; chmod +x [filename]
 
-# To set up a bucket the bucket type:
+## To set up a bucket the bucket type:
 gsutil mb -c regional -l europe-west2 gs://up742010
 
 -c regional = the storage class
@@ -23,7 +23,7 @@ gsutil mb -c regional -l europe-west2 gs://up742010
 
 gs://up742010 = the name of the bucket
 
-# To export you must use this code
+## To export you must use this code
 gcloud beta datastore export --namespaces='up742010s4' gs://up742010
 
 --namespaces - sets it to export a specific namespace.
