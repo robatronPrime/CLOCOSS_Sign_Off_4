@@ -14,7 +14,7 @@ MAILTO=up742010@myport.ac.uk
 
 ## Insure that the shellscript is executable with; chmod +x [filename]
 
-## To set up a bucket the bucket type:
+## To set up a bucket the bucket:
 gsutil mb -c regional -l europe-west2 gs://up742010
 
 -c regional = the storage class
